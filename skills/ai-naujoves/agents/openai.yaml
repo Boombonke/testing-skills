@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI naujovės"
+  short_description: "Oficialių AI naujienų santrauka lietuvių kalba"
+  default_prompt: "Naudok $ai-naujoves ir pateik paskutinių 7 dienų AI naujovių santrauką lietuviškai, remdamasis tik oficialiais šaltiniais."

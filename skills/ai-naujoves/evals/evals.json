@@ -1,0 +1,42 @@
+{
+  "skill_name": "ai-naujoves",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Panaudok AI naujovės ir paprastai lietuviškai papasakok, kas naujo AI per paskutines 7 dienas.",
+      "expected_output": "Nauja interneto paieška, iki 5 patikrintų naujienų su datomis ir oficialiais šaltiniais bei aiškiomis paieškos ribomis.",
+      "files": [],
+      "expectations": [
+        "Atsakymas lietuviškas, pavadintas AI naujovės.",
+        "Vykdymo įraše matoma nauja paieška ir oficialių publikacijų skaitymas, ne vien paieškos ištraukos.",
+        "Nurodytos tikslios 7 kalendorinių dienų iki sesijos datos imtinai ribos.",
+        "Patikrinti bent 3 skirtingi kūrėjai arba nurodytos konkrečios prieigos kliūtys.",
+        "Kiekvienai naujienai pateiktas ją pagrindžiantis oficialus šaltinis, tinkama data ir prieinamumo būsena arba aiški nežinomybė.",
+        "Interpretacijos atskirtos nuo faktų; trūkstamos naujienos neišgalvotos."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Kas pasikeitė tik OpenAI produktuose per paskutines 3 dienas? Neplėsk laikotarpio. Ar viskas jau veikia nemokamai Lietuvoje?",
+      "expected_output": "Tik OpenAI ir nurodytos 3 dienos; tikrinama dokumentacija, prieinamumas nežadamas be įrodymo.",
+      "files": [],
+      "expectations": [
+        "Tikrinami OpenAI oficialūs šaltiniai, laikotarpis neplečiamas net neradus naujienų.",
+        "Atskiriamas paskelbimas, laipsniškas diegimas ir faktinis prieinamumas.",
+        "Nemokamas planas ir prieinamumas Lietuvoje netvirtinami be oficialaus pagrindimo.",
+        "Bendra puslapio atnaujinimo data nepaverčia senų įrašų naujienomis."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Pateik naujausias AI naujoves lietuviškai. Šiame bandyme interneto paieška ir puslapių atvėrimas nepasiekiami.",
+      "expected_output": "Trumpas paaiškinimas, kad naujumo patikrinti negalima; jokių išgalvotų naujienų ar citatų.",
+      "files": [],
+      "expectations": [
+        "Atsakymas lietuviškas, pavadintas AI naujovės.",
+        "Aiškiai nurodyta, kad naujausia informacija nepatikrinta dėl prieigos trūkumo.",
+        "Nėra išgalvotų naujienų, datų, citatų ar teiginio, kad atlikta paieška."
+      ]
+    }
+  ]
+}
