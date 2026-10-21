@@ -1,0 +1,4 @@
+interface:
+  display_name: "VMI mokesčiai"
+  short_description: "Oficialios VMI mokesčių naujovės ir pakeitimai lietuviškai"
+  default_prompt: "Panaudok VMI mokesčiai įgūdį ir pateik naujausius Lietuvos mokesčių pakeitimus, remdamasis oficialiais VMI šaltiniais."
